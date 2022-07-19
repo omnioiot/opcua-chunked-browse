@@ -1,0 +1,15 @@
+[package]
+name = "opcua-chunked-browse"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.opcua]
+#path = "../opcua/lib"
+#features = ["client"]
+git = "https://github.com/locka99/opcua"
+branch = "master"
+features = ["client"]
