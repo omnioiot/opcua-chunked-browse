@@ -12,4 +12,4 @@ edition = "2021"
 #features = ["client"]
 git = "https://github.com/locka99/opcua"
 branch = "master"
-features = ["client"]
+features = ["client", "console-logging"]

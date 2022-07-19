@@ -2,6 +2,7 @@ use opcua::client::prelude::*;
 use std::path::PathBuf;
 
 fn main() {
+    opcua::console_logging::init();
     let mut client_config = ClientConfig {
         application_name: "Omnio Edge Opcua Discovery".into(),
         application_uri: "urn:omnio:edge".into(),
